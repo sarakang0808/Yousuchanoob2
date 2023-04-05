@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.clang_12
+		pkgs.kona
+  pkgs.clang_12
 		pkgs.ccls
 		pkgs.gdb
 		pkgs.gnumake
